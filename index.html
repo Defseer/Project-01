@@ -1,83 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles4.css">
-        <title>My first table</title>
+     <link rel="stylesheet" href="styles3.css">   
+     <title>Vehicle Verification System</title>
+     <meta name="viewport" content="width-of-device,initial-scale=1">
 </head>
 
-<body>
-    <table>
-        <caption>Web Infomax IT Solutions</caption>
-        <tr>
-           <td rowspan="2">Sr.No</td> 
-           <td rowspan="2">Details of the service provided</td>
-           <td rowspan="2">Qty</td>
-           <td colspan="2">Service Provided</td>
-           <td colspan="4">Service Performance Details</td>
-        </tr>
+<body> 
+  <div class="glass-container">
+    <div class="login-box">
+        <img src="car.png" alt="">
+        <h1>Welcome Back</h1>
+        <p>Sign in to access vehicle verification system</p>
+        <form action="#" method="POST">
 
-        <tr>
-           <td>Form</td>
-            <td>To </td>
-            <td>S.No</td>
-            <td>Service ID No:</td>
-            <td>Gap in Service(in days)</td>
-            <td>Overall Performance Remarks(Satisfactory/in-satisfactory)</td>
-        <tr> 
-        </tr>
-            <td rowspan="3">1</td>
-            <td rowspan="3"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>1</td>
-            <td></td>
-             <td></td>
-            <td></td>
-        </tr>
+           <label for="email">Email Adress</label>
+            <input type="email" id="email" name="email" required placeholder="admin@system.com">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder=".......">
+            <button type="submit">Sign in</button>
 
-        <tr>
-             <td></td>
-            <td></td>
-             <td></td>
-            <td>2</td>
-            <td></td>
-             <td></td>
-            <td></td>
-        </tr>
-
-        <tr>
-             <td></td>
-            <td></td>
-             <td></td>
-            <td>3</td>
-            <td></td>
-             <td></td>
-            <td></td>
-        </tr>
-
-        <tr>
-            <td rowspan="2">2</td>
-            <td rowspan="2"></td>
-             <td></td>
-             <td></td>
-            <td></td>
-           <td>1</td> 
-           <td></td>
-             <td></td>
-            <td></td>
-        </tr>
-
-        <tr>
-             <td></td>
-             <td></td>
-            <td></td>
-            <td>2</td>
-            <td></td>
-             <td></td>
-            <td></td>
-        </tr>
-    </table>
+            <p>Don't have an account? <a href="#" id="register">Sign up</a></p>
+        </form>
+    </div>
+  </div>
 </body>
 </html>
-
