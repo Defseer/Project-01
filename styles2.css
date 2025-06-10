@@ -1,0 +1,35 @@
+header{
+    background-color: #df6cdf;
+    /* padding: 20px; */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    max-width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+li a{
+    text-decoration: none;
+    color: grey;
+}
+h3{
+    position: relative;
+    color: gray;
+}
+article{
+    max-width: 100%;
+    width: 650px;
+    margin: 40px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
